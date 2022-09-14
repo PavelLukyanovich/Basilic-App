@@ -2,13 +2,17 @@ package com.example.basilicapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
     ImageView imageViewChooseIndicator;
+    ArrayList<RecyclerViewItem> arrayList;
 
 
     @Override
@@ -23,6 +27,19 @@ public class MainActivity extends AppCompatActivity {
         }
 
     public void runMenActivity(View view) {
-        Intent intent =new Intent(this, ActivityMen);
+
+        Intent intent =new Intent(this, ActivityMen.class);
+
+        startActivity(intent);
+    }
+
+    public void runWomenActivity(View view) {
+        Intent intent =new Intent(this, ActivityWomen.class);
+        startActivity(intent);
+    }
+
+    public void runChildrenActivity(View view) {
+        Intent intent =new Intent(this, ActivityChildren.class);
+        startActivity(intent);
     }
 }

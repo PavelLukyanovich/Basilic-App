@@ -14,7 +14,16 @@
         android:theme="@style/Theme.BasilicApp"
         tools:targetApi="31">
         <activity
-            android:name=".ActivitMen"
+            android:name=".ActivityInfo"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityChildren"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityWomen"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityMen"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
