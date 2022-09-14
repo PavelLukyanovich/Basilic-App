@@ -21,6 +21,8 @@ public class ActivityMen extends AppCompatActivity {
         setContentView(R.layout.activity_men);
 
         recyclerView = findViewById(R.id.menRecyclerView);
+        arrayList = new ArrayList<RecyclerViewItem>();
+
 
 
         arrayList = new ArrayList<RecyclerViewItem>();
@@ -29,7 +31,7 @@ public class ActivityMen extends AppCompatActivity {
         arrayList.add(new RecyclerViewItem(R.drawable.bouquet3, Utils.NAME_3, Utils.DESCRIPTION_3, "Подойдет для вечера пятницы"));
         arrayList.add(new RecyclerViewItem(R.drawable.bouquet4, Utils.NAME_4, Utils.DESCRIPTION_4, "Для любимого мужа"));
         arrayList.add(new RecyclerViewItem(R.drawable.bouquet5, Utils.NAME_5, Utils.DESCRIPTION_5, "Если хочется есть"));
-        arrayList.add(new RecyclerViewItem(R.drawable.bouquet6, Utils.NAME_6, Utils.DESCRIPTION_6, "Для пвпы"));
+        arrayList.add(new RecyclerViewItem(R.drawable.bouquet6, Utils.NAME_6, Utils.DESCRIPTION_6, "Для папы"));
 
 
         recyclerView.setHasFixedSize(true);
