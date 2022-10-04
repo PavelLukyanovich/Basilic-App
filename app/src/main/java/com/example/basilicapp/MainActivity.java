@@ -1,10 +1,14 @@
 package com.example.basilicapp;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -41,5 +45,32 @@ public class MainActivity extends AppCompatActivity {
     public void runChildrenActivity(View view) {
         Intent intent =new Intent(this, ActivityChildren.class);
         startActivity(intent);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.item_menu, menu);
+        return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        int id = item.getItemId();
+        if(id == R.id.action_settings) {
+            Intent openSettings = new Intent(this, Settings.class);
+            startActivity(openSettings);
+            return true;
+        }
+        if (id == R.id.action_about) {
+            Intent openAbout = new Intent(this, About.class);
+            startActivity(openAbout);
+            return true;
+        }
+        if (id == R.id.action_donate) {
+            Intent openDonate = new Intent(this, Donate.class);
+            startActivity(openDonate);
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

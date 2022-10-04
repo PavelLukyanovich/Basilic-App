@@ -14,20 +14,65 @@
         android:theme="@style/Theme.BasilicApp"
         tools:targetApi="31">
         <activity
+            android:name=".Donate"
+            android:exported="false"
+            android:label="Donate to developer">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".About"
+            android:exported="false"
+            android:label="About application">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:exported="false"
+            android:label="Settings">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".ActivityInfo"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Information">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ActivityMen" />
+        </activity>
         <activity
             android:name=".ActivityChildren"
-            android:exported="false" />
+            android:exported="false"
+            android:label="For children">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".ActivityWomen"
-            android:exported="false" />
+            android:exported="false"
+            android:label="For women">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".ActivityMen"
-            android:exported="false" />
+            android:exported="false"
+            android:label="For men">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

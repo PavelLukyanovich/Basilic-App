@@ -1,5 +1,6 @@
 package com.example.basilicapp;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -22,7 +23,10 @@ public class ActivityMen extends AppCompatActivity {
 
         recyclerView = findViewById(R.id.menRecyclerView);
         arrayList = new ArrayList<RecyclerViewItem>();
-
+        ActionBar actionBar = this.getSupportActionBar();
+        if(actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
 
 
         arrayList = new ArrayList<RecyclerViewItem>();

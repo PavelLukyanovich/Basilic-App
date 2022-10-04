@@ -5,13 +5,17 @@
       <map>
         <entry key="..\:/Programming/Android_development/BasilicApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3465" />
         <entry key="..\:/Programming/Android_development/BasilicApp/app/src/main/res/drawable/ic_baseline_vertical_align_bottom_24.xml" value="0.3465" />
+        <entry key="..\:/Programming/Android_development/BasilicApp/app/src/main/res/layout/activity_about.xml" value="0.2109375" />
         <entry key="..\:/Programming/Android_development/BasilicApp/app/src/main/res/layout/activity_activiti_info.xml" value="0.38645833333333335" />
         <entry key="..\:/Programming/Android_development/BasilicApp/app/src/main/res/layout/activity_children.xml" value="0.3845108695652174" />
+        <entry key="..\:/Programming/Android_development/BasilicApp/app/src/main/res/layout/activity_donate.xml" value="0.2109375" />
         <entry key="..\:/Programming/Android_development/BasilicApp/app/src/main/res/layout/activity_info.xml" value="0.2109375" />
         <entry key="..\:/Programming/Android_development/BasilicApp/app/src/main/res/layout/activity_main.xml" value="0.4005208333333333" />
         <entry key="..\:/Programming/Android_development/BasilicApp/app/src/main/res/layout/activity_men.xml" value="0.2109375" />
+        <entry key="..\:/Programming/Android_development/BasilicApp/app/src/main/res/layout/activity_settings.xml" value="0.4466666666666667" />
         <entry key="..\:/Programming/Android_development/BasilicApp/app/src/main/res/layout/activity_women.xml" value="0.2109375" />
         <entry key="..\:/Programming/Android_development/BasilicApp/app/src/main/res/layout/recycler_view_item.xml" value="0.4005208333333333" />
+        <entry key="..\:/Programming/Android_development/BasilicApp/app/src/main/res/menu/item_menu.xml" value="0.2109375" />
         <entry key="..\:/Programming/Android_development/BasilicApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3465" />
         <entry key="..\:/Programming/Android_development/BasilicApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3465" />
       </map>
